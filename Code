@@ -1,4 +1,4 @@
-*/A1 : */
+/* A1 : */
 
 #include <stdio.h>
 int main()
@@ -20,7 +20,7 @@ int main()
 
 
 
-*/A2 : */
+/* A2 : */
 
 #include <stdio.h>
  
