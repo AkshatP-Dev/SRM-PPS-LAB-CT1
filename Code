@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main( ) {
+   char products[5][10] = {"Chips", "Peanuts", "Popcorn", "Cookie", "Drink"};
+   printf("Vending Machine Menu\n\n");
+   for(int i = 0; i < 5; i++) {
+     printf("%d - %s\n", i+1, products + i);
+  }
+  return 0;
+}
