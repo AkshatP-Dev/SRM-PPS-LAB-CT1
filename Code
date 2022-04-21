@@ -1,9 +1,17 @@
 #include <stdio.h>
-int main( ) {
-   char products[5][10] = {"Chips", "Peanuts", "Popcorn", "Cookie", "Drink"};
-   printf("Vending Machine Menu\n\n");
-   for(int i = 0; i < 5; i++) {
-     printf("%d - %s\n", i+1, products + i);
-  }
-  return 0;
+int main()
+{
+    int Candiateage;
+    printf("Input the age of the candidate : ");
+    scanf("%d", &Candiateage);
+    if (Candiateage < 18)
+    {
+        printf("Sorry, You are not eligible to caste your vote.\n");
+        printf("You would be able to caste your vote after %d year.\n", 18-Candiateag);
+    }
+    else
+    {
+        printf("Congratulation! You are eligible for casting your vote.\n");
+    }
+    return 0;
 }
